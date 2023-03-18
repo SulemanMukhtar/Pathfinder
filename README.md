@@ -3,7 +3,7 @@ This is a Java class for finding a path in a two-dimensional grid using differen
 
 The class has a constructor that initializes a two-dimensional grid of integers with a given size and randomly selects start and end points within the grid. The findPath() method determines which algorithm to use based on the distance between the start and end points and calls the corresponding method (useAStar() or useBFS()) to find the shortest path between the two points.
 
-useDijkstra() implements Dijkstra's algorithm to find the shortest path between the start and end points. It initializes the distances and visited arrays with initial values, sets the starting distance to zero, and updates the distances to neighboring nodes until the end node is reached. It prints the shortest distance to the end node.
+useDijkstra() implements Dijkstra's algorithm to find the shortest path between the start and end points. It initializes the distances and visited arrays with initial values, sets the starting distance to zero, and updates the distances to neighboring nodes until the end node is reached. It prints the shortest distance to the end node. It is pretty slow in comparison to the other methods so i have opted to not implement it in findPath().
 
 useAStar() implements the A* algorithm to find the shortest path between the start and end points. It initializes the distances array with initial values, sets the starting distance to zero, and uses a priority queue to prioritize nodes with the lowest estimated total cost. It updates the distances to neighboring nodes until the end node is reached. It prints the shortest distance from start to end.
 
