@@ -1,5 +1,5 @@
 # Pathfinder
-This is a Java class for finding a path in a two-dimensional grid using different algorithms based on the distance between the start and end points. The class includes implementations of Dijkstra's algorithm and A* algorithm.
+This is a Java class for finding a path in a two-dimensional grid using different algorithms based on the distance between the start and end points. The class includes implementations of Dijkstra's algorithm, Breadth First Search algorithm and A* algorithm.
 
 The class has a constructor that initializes a two-dimensional grid of integers with a given size and randomly selects start and end points within the grid. The findPath() method determines which algorithm to use based on the distance between the start and end points and calls the corresponding method (useAStar() or useBFS()) to find the shortest path between the two points.
 
